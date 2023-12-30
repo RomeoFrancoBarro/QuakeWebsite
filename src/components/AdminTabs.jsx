@@ -19,7 +19,7 @@ const AdminTabs = ({ shouldRenderNewLink, trackerLink }) => {
         <li>
           <Link
             to="/tracker"
-            className="flexbox py-2 px-3 md:p-0 text-white rounded hover:bg-blue-700 hover:text-white md:hover:bg-transparent border-gray-700 md:hover:text-white d:dark:hover:text-blue-500 dark:text-white dark:hover:bg-blue-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            className="flexbox py-2 px-3 md:p-0 text-white rounded hover:bg-blue-700 md:hover:bg-transparent md:hover:text-blue-700 d:dark:hover:text-blue-500 dark:text-white dark:hover:bg-blue-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
           >
             Tracker
           </Link>
@@ -29,7 +29,7 @@ const AdminTabs = ({ shouldRenderNewLink, trackerLink }) => {
           <li>
             <Link
               to={trackerLink}
-              className="flexbox py-2 px-3 md:p-0 text-white rounded hover:bg-blue-700 hover:text-white md:hover:bg-transparent border-gray-700 md:hover:text-white d:dark:hover:text-blue-500 dark:text-white dark:hover:bg-blue-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              className="flexbox py-2 px-3 md:p-0 text-white rounded hover:bg-blue-700 md:hover:bg-transparent md:hover:text-blue-700 d:dark:hover:text-blue-500 dark:text-white dark:hover:bg-blue-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
             >
               Requests
             </Link>

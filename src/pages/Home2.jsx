@@ -135,7 +135,7 @@ const Home2 = () => {
     }
 
     // Return the appropriate link based on the condition
-    return shouldUseAlternateLink ? '/requests' : '/tracker';
+    return shouldUseAlternateLink ? '/tracker' : '/requests';
 
   };
 
