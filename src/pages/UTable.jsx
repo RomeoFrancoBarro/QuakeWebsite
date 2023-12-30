@@ -104,7 +104,7 @@ export class ATable extends React.Component{
 
 
 
-    <div className='flex mt-10 justify-center '>
+    <div className='flex lg:mt-10 md:mt-0 justify-center '>
 
 
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg">

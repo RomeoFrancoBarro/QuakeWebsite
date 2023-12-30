@@ -78,7 +78,7 @@ class ATable extends React.Component {
           </h1>
         </div>
 
-        <div className="flex mt-10 justify-center">
+        <div className="flex lg:mt-10 md:mt-0 justify-center">
           <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
             <table className="w-full text-sm text-left rtl:text-right text-gray-400 dark:text-gray-400">
               <thead className="text-xs text-gray-400 uppercase bg-gray-700 dark:bg-gray-700 dark:text-gray-400">
