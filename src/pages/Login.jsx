@@ -85,7 +85,7 @@ const Login = () => {
 
   <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
   
-  <h2 className="mb-4 text-3xl font-extrabold text-white dark:text-white md:text-5xl lg:text-6xl text-shadow-md">
+  <h2 className="mb-4 text-3xl font-extrabold text-white dark:text-white md:text-4xl lg:text-6xl text-shadow-md">
     <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-sky-400">Earthquake Monitoring</span> App.</h2>
 
 </div>
