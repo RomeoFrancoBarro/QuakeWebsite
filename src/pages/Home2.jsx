@@ -17,6 +17,7 @@ const Home2 = () => {
 
     const [showButton, setShowButton] = useState(false);
     const [showTab, setShowTab] = useState(false);
+    const [showPopup, setShowPopup] = useState(false);
     
 
     useEffect(() => {
@@ -68,7 +69,7 @@ const Home2 = () => {
                 date: formattedDate,
                 time: formattedTime
                 })
-                .then(() => { alert('Request has been sent.') })
+              .then(() => { /*alert('Request has been sent.') */})
                 .catch((error) => { alert('There was an error 2, details: ' + error) });
 
 
@@ -82,6 +83,15 @@ const Home2 = () => {
         .catch((error) => { alert('There was an error, details: ' + error) });
 
         }
+
+        // Show the popup
+        setShowPopup(true);
+
+        // Hide the button after a few seconds
+        setTimeout(() => {
+          
+          setShowPopup(false);
+        }, 3000); // Adjust the time as needed (3000 milliseconds = 3 seconds)
     }
 
     
@@ -282,6 +292,15 @@ const Home2 = () => {
           </button>
         </div>
       )}
+
+      {showPopup && (
+        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
+          <div className="bg-gray-900 hover:bg-gray-800 border border-black p-8 rounded-lg shadow-lg">
+            <p className="text-white text-lg font-semibold mb-4">Request has been sent.</p>
+          </div>
+        </div>
+      )}
+
     </div>
 
 
