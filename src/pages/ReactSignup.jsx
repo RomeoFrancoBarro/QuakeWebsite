@@ -103,7 +103,7 @@ const DataSignup = () => {
 
 
     
-    <div className='flex justify-center mt-11'>
+    <div className='flex justify-center '>
       <div className="w-full max-w-sm p-4 bg-gray-800 border border-gray-700 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
         <form className="space-y-6 signup-form" action="#" onSubmit={handleSubmit}>
           <h5 className="flex justify-center text-xl font-medium text-white dark:text-white">
