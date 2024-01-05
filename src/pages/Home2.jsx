@@ -250,24 +250,24 @@ const Home2 = () => {
 
     <div className='flex justify-center'>
     <div className='flexbox mt-10 justify-center '>
-        <div className=" bg-gray-800 border border-gray-700 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="bg-gray-800 border border-gray-700 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 sm:w-12/12 lg:w-6/12 mx-auto">
             <a href="#">
                 <img className="rounded-t-lg " src={FloorPlan} alt="" />
                 
             </a>
             
   
-        <div className="p-5 " >
-            <a href="#">
-                <h5 className=" flex justify-center mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
-                    URS EARTS Floor Plan
-                </h5>
-            </a>
-    
-            
-        </div>
+          <div className="p-5 " >
+              <a href="#">
+                  <h5 className=" flex justify-center mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
+                      URS EARTS Floor Plan
+                  </h5>
+              </a>
+      
+              
+          </div>
         
-    </div>
+        </div>
 
 
 
